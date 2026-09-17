@@ -1,0 +1,92 @@
+<section style="background-color:#875A7B">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-12 text-center">
+                <h1 style="color:#ffffff; font-size:40px; font-weight:700">Keep Invoice Bank Account</h1>
+                <p style="color:#f1e6ee; font-size:19px; line-height:1.5">
+                    Pick a bank account on an invoice and it stays picked -
+                    Odoo stops swapping it back.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-12 text-center">
+                <h2 style="color:#4a4a4a; font-weight:600">The problem</h2>
+                <p style="color:#666666; font-size:16px; line-height:1.6">
+                    A partner can have several bank accounts on file, and
+                    sometimes an invoice needs a specific one - not the first
+                    in the list. Odoo recomputes the Recipient Bank field
+                    every time something it depends on changes, most often
+                    the partner itself, and that recompute always resets it
+                    to the partner's first account. The deliberate choice
+                    quietly disappears.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:#f8f7fa">
+    <div class="container py-5">
+        <div class="row justify-content-center mb-4">
+            <div class="col-12 text-center">
+                <h2 style="color:#4a4a4a; font-weight:600">How it works</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12 mb-4 text-center">
+                <div style="color:#875A7B; font-size:32px; font-weight:700">1</div>
+                <h3 style="color:#4a4a4a; font-size:18px; font-weight:600">Pick a bank account</h3>
+                <p style="color:#666666">Set Recipient Bank on the invoice to the account you want.</p>
+            </div>
+            <div class="col-md-4 col-12 mb-4 text-center">
+                <div style="color:#875A7B; font-size:32px; font-weight:700">2</div>
+                <h3 style="color:#4a4a4a; font-size:18px; font-weight:600">Keep editing normally</h3>
+                <p style="color:#666666">Change the partner, save, reopen - anything else stays untouched.</p>
+            </div>
+            <div class="col-md-4 col-12 mb-4 text-center">
+                <div style="color:#875A7B; font-size:32px; font-weight:700">3</div>
+                <h3 style="color:#4a4a4a; font-size:18px; font-weight:600">It sticks</h3>
+                <p style="color:#666666">
+                    Your choice is never silently swapped back. Clear the
+                    field yourself and Odoo's normal default takes over
+                    again.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-12 text-center">
+                <h2 style="color:#4a4a4a; font-weight:600">Where it applies</h2>
+                <p style="color:#666666; font-size:16px; line-height:1.6">
+                    Any invoice, bill, credit note or receipt
+                    (<code>account.move</code>). Requires the Invoicing /
+                    Accounting app. No new models, no extra configuration,
+                    no security rules - install it and manually chosen bank
+                    accounts simply stop getting reset.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:#f8f7fa">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <p style="color:#999999; font-size:14px">
+                    Hadron for Business sp. z o.o. &middot; support: TODO@hadronforbusiness.com
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
