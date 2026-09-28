@@ -41,6 +41,9 @@ never recomputed until someone clears it themselves.
         'account',
     ],
     'data': [],
+    'images': [
+        'static/description/banner_screenshot.png',
+    ],
     'installable': True,
     'application': False,
 }
