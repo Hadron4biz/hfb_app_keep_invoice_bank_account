@@ -32,7 +32,7 @@ picked a *different* one on purpose, that choice silently disappears.
 This app leaves a manually chosen bank account alone: once it's set, it's
 never recomputed until someone clears it themselves.
 """,
-    'version': "19.0.1.0.0",
+    'version': "20.0.1.0.0",
     'author': "Hadron for Business sp. z o.o.",
     'website': "http://hadronforbusiness.com",
     'license': "OPL-1",
